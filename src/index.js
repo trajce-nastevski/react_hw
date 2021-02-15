@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +10,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* 
+  Homework 02
+  1. Create Car component that would display the car's model. *
+  2. Create variable for some car model. Pass the value from the variable as prop in the Car component. Display the car model.
+  3. Implement 1 and 2 with three other car models.
+  4. Create car object (type, model, color, doors number, hatchback  etc.).  Pass the object as prop in the Car component. Display the car details. 
+  5. If hatchback is true, you should display the doors number increased by one.
+*/
